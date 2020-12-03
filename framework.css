@@ -1,0 +1,39 @@
+h1 {
+    color:blue;
+	 font-size: 100px;
+     text-align: center; 
+}
+
+.boite1 { 
+text-align: center; }
+#card {display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.button {
+background-color: #b6d173;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}	
+.button:hover {
+	background-color: #3C7AB3;
+  height: 80px;
+  width: 180px;
+}
+.nav {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+@media screen and (max-width: 900px) {
+	h1 { color: #b6d173;
+	font-size: 50px;
+	}
+}
+
+
+
+
